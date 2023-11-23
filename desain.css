@@ -1,0 +1,198 @@
+table {
+    /*border-collapse: collapse; */ /* sintak untuk hiden garis tabel*/
+    width: 950px;
+    border-color: white;
+/*    border-radius: 10px;*/
+
+}
+
+th, td {
+    text-align: center;
+    padding: 3px;
+    
+    
+
+}
+
+tr:nth-child(even){background-color: #f2f2f2;
+     
+
+}
+/*th:first-child{
+    border-top-left-radius: 10px;
+}*/
+
+.hapus  {
+
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 0.4em;
+    border-color: white;
+    padding: 7px;
+
+}
+
+.edit  {
+
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border-radius: 0.4em;
+    border-color: white;
+    padding: 7px;
+
+
+}
+
+.add{
+
+    font-size: 15px;
+    background-color: green;
+    border-radius: 0.4em;
+    border-color: white;
+    padding: 7px;
+    color: white;
+
+}
+
+body   {
+
+    font-family: Helvetica;
+    margin-left: 0px;
+    font-size: 25px;
+} 
+
+.back{
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    margin: 4px;
+    border-radius: 0.4em;
+    padding: 7px;
+    border-color: white;
+
+
+}
+.lala1{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-top-left-radius: 0.4em; ;
+        }
+
+.lala2{
+            background-color: black;
+            color: white;
+            font-size: 25px;
+            border-top-right-radius: 0.4em; ;
+        }
+
+
+.lala{
+            background-color: black;
+            color: white;
+            font-size: 25px;
+        }
+img {
+            width: 100px;
+            height: 100px;
+        }
+.sun{
+            font-size: 25px;
+        }
+
+.judul {
+    text-align: center;
+}
+
+
+body{
+      height: 100vh;
+      background: #e1edf9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background-color: #7e7e7e;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+    position: fixed;
+
+     /*#7e7e7e*/
+}
+/*nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin:10px;
+    font-family:Helvetica;
+    color: white;
+    font-size: 25px;
+    font-weight: 500px;
+    margin-right: 100px;
+}*/
+
+.logo{
+    font-family:Helvetica;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.all {
+    margin-left: 10px;
+}
+
+.input  {
+    margin : 10px;
+    padding-left: 10px;
+}
+
+.input{
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 0.4em;
+    padding: 7px;
+    border-color: white;
+}
+
+.cari  {
+
+    background-color: gray;
+    color: white;
+    border-radius: 0.4em;
+    border-color: white;
+    padding: 7px;
+
+
+}
+
+.pagination{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: green;
+    text-decoration:none;
+}
+.pagination2{
+    font-family: sans-serif;
+    color: black;
+    text-decoration:none;
+}
